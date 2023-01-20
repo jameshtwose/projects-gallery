@@ -1,4 +1,7 @@
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     /* margin: 100px;
     padding: 20px; */
     font-family: 'Raleway', sans-serif;
@@ -13,6 +16,18 @@ body {
 a {
     color: var(--link_color);
     text-decoration: none;
+}
+
+#footer a:hover {
+    color: white;
+}
+
+.title-list a:hover {
+    color: var(--header_color);
+}
+
+.carousel-caption a:hover {
+    color: var(--header_color);
 }
 
 h1, h2 {
@@ -48,3 +63,11 @@ h1, h2 {
     padding-bottom: 50px;
     font-size: 30px;
 }
+
+footer{
+    margin-top: 80px;
+}
+
+.carousel-caption {
+    background: #f9f9f9;
+  }

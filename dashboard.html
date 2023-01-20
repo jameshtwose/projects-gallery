@@ -39,8 +39,7 @@
         <div id="header"></div>
         <section class="container" id="mainbody">
             <h1>Dashboard Examples</h1>
-            <div id="carouselExampleDark" class="carousel carousel-dark slide"
-                data-bs-ride="carousel">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-interval="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark"
                         data-bs-slide-to="0" class="active" aria-current="true"
@@ -57,21 +56,43 @@
                         <iframe
                             src="https://itsamejms.shinyapps.io/jmspwr/"
                             class="d-block w-100" alt="..." height="800px"></iframe>
+                        <div class="carousel-caption d-none d-md-block"
+                            id="white-caption">
+                            <h5>A power analysis dashboard - used to check
+                                sample sizes required for analyses</h5>
+                            <p>Actual dashboard can be found <a
+                                    href="https://itsamejms.shinyapps.io/jmspwr/">here</a>.</p>
+                        </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <iframe
                             src="https://finance.jms.rocks"
                             class="d-block w-100" alt="..." height="800px"></iframe>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>A dashboard to monitor your finances</h5>
+                            <p>Actual dashboard can be found <a
+                                    href="https://finance.jms.rocks">here</a>.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <iframe
                             src="https://health.jms.rocks"
-                            class="d-block w-100" alt="..." height="800px"></iframe>     
+                            class="d-block w-100" alt="..." height="800px"></iframe>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>A dashboard for James to look into his nutrition data</h5>
+                            <p>Actual dashboard can be found <a
+                                    href="https://health.jms.rocks">here</a>.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <iframe
                             src="https://itsamejms.shinyapps.io/mtcars-example/"
-                            class="d-block w-100" alt="..." height="800px"></iframe>     
+                            class="d-block w-100" alt="..." height="800px"></iframe>
+                        <div class="carousel-caption d-none d-md-block" id="white-caption">
+                            <h5>An example plotting dashboard in R</h5>
+                            <p>Actual dashboard can be found <a
+                                    href="https://itsamejms.shinyapps.io/mtcars-example/">here</a>.</p>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button"
